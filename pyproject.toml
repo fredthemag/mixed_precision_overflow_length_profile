@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "fredthemag-vecdb_jd334"
+name = "fredthemag-mixed_precision_overflow_length_profile"
 version = "0.1.0"
 description = "按段落统计向量数据库内核工程师·混合精度的溢出与下溢相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://fredthemag.github.io"
-Repository = "https://github.com/fredthemag/vecdb_jd334"
-Issues = "https://github.com/fredthemag/vecdb_jd334/issues"
+Repository = "https://github.com/fredthemag/mixed_precision_overflow_length_profile"
+Issues = "https://github.com/fredthemag/mixed_precision_overflow_length_profile/issues"
 
 [project.scripts]
-vecdb_jd334 = "vecdb_jd334:main"
+mixed_precision_overflow_length_profile = "mixed_precision_overflow_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["vecdb_jd334"]
+py-modules = ["mixed_precision_overflow_length_profile"]
